@@ -238,8 +238,6 @@ tgp.controller("navCtrl",function($scope,$rootScope,$location){
     }else{
         $rootScope.game = false;
     }
-    console.log($rootScope.media);
-
 });
 tgp.factory("tabTada",function(){
     return {
