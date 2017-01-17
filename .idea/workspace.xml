@@ -2,427 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b6e0ea-d269-49ce-a2b0-f817e8b10859" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image002.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image003.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image004.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image005.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image006.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image007.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image008.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image009.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image010.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image011.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image012.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image013.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image014.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image015.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image016.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image017.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image018.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image019.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image020.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image021.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image022.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image023.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image024.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image025.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image026.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image027.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image028.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image029.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image030.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image031.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image032.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image033.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image034.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image035.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/find/thought/image036.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image003.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image005.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image007.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image011.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image019.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image021.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image026.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image028.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image030.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image033.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image035.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image037.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image039.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image041.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image043.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image044.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image045.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image046.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image047.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image048.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image049.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image050.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image051.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image052.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image053.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image054.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image055.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image056.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image057.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image058.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image059.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image060.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image061.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image062.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image063.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image064.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image065.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image066.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image067.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image068.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image069.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image070.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image071.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image072.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image073.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image074.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image075.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image076.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image077.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image078.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image079.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image080.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image081.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image082.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image083.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image084.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image085.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image086.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image087.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image088.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image089.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image090.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image091.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image092.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image093.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image094.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image095.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image096.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image097.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image098.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image099.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image116.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image117.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image118.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image119.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image120.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image121.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image122.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image123.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image124.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image125.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image126.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image127.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image129.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image130.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image131.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image132.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image133.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image134.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image135.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image136.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image137.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image138.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image139.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image140.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image141.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image142.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image143.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image144.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image145.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image146.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image147.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image148.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image149.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image150.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image151.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image152.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image153.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image154.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image155.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image156.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image157.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image158.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image159.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image160.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image161.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image162.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image163.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image164.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image165.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image166.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image167.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image168.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image169.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image170.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image171.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image172.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image173.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image174.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image175.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image176.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image177.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image178.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image179.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image180.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image181.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image182.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image183.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image184.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image185.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image186.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image187.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image188.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image189.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image190.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image191.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image192.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image193.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image194.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image195.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image196.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image197.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image198.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image199.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image200.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image201.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image202.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image203.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image204.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image205.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image206.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image207.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image208.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image209.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image210.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image211.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image212.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image213.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image214.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image215.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image216.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image217.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image218.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image219.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image220.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image221.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image222.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image223.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image224.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image225.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image226.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image227.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image228.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image229.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image230.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image231.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image232.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image233.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image234.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image235.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image236.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image237.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image238.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image239.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image240.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image241.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image242.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image243.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image244.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image245.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image246.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image247.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image248.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image249.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image250.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image251.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image252.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image253.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image254.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image255.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image256.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image257.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image258.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image259.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image260.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image261.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image262.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image263.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image264.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image265.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image266.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image267.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image268.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image269.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image270.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image271.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image272.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image273.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image274.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image275.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image276.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image277.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image278.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image279.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image280.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image281.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image282.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image283.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image284.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image285.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image286.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image287.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image288.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image289.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image290.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image291.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image292.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image293.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image294.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image295.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image296.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image297.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image298.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image299.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image300.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image301.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image302.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image303.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image304.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image305.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image306.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image307.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image308.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image309.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image310.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image311.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image312.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image313.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image314.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image315.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image316.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image317.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image318.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image319.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image320.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image321.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image322.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image323.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image324.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image325.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image326.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image327.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image328.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image329.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image330.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image331.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image332.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image333.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image334.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image335.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image336.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image337.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image338.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image339.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image340.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image341.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image342.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image343.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image344.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image345.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image346.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image347.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image348.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image349.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image350.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image351.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image352.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image353.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image354.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image355.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image356.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image357.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image358.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/manage/policy/image359.gif" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/find/thought/img1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image001.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image003.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image005.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image007.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image011.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image019.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image021.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image026.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image028.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image030.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image033.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image035.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image037.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image039.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image041.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/manage/policy/image043.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image002.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image002.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image004.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image004.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image006.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image006.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image008.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image008.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image009.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image009.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image010.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image010.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image012.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image012.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image013.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image013.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image014.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image014.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image015.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image015.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image016.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image016.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image017.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image017.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image018.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image018.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image020.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image020.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image022.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image022.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image023.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image023.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image024.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image024.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image025.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image025.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image027.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image027.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image029.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image029.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image031.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image031.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image032.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image032.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image034.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image034.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image036.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image036.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image038.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image038.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image040.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image040.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/manage/policy/image042.gif" afterPath="$PROJECT_DIR$/images/manage/policy/image042.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/diplomacy/trade.html" afterPath="$PROJECT_DIR$/html/wiki/diplomacy/trade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/find/ftl.html" afterPath="$PROJECT_DIR$/html/wiki/find/ftl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/find/thought.html" afterPath="$PROJECT_DIR$/html/wiki/find/thought.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/manage/act.html" afterPath="$PROJECT_DIR$/html/wiki/manage/act.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/manage/government.html" afterPath="$PROJECT_DIR$/html/wiki/manage/government.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/manage/leader.html" afterPath="$PROJECT_DIR$/html/wiki/manage/leader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/manage/policy.html" afterPath="$PROJECT_DIR$/html/wiki/manage/policy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/military/groundBattle.html" afterPath="$PROJECT_DIR$/html/wiki/military/groundBattle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/frame-game.html" afterPath="$PROJECT_DIR$/html/wiki/frame-game.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/frame-tgp.html" afterPath="$PROJECT_DIR$/html/wiki/frame-tgp.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -440,14 +22,24 @@
       <file leaf-file-name="frame-game.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/frame-game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empireChoice.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="frame-tgp.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/wiki/frame-tgp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empireChoice.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/beginner/empireChoice.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -460,7 +52,7 @@
       <file leaf-file-name="groundBattle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/military/groundBattle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="90">
               <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
               <folding>
                 <marker date="1484628847000" expanded="true" signature="2689:2959" ph="..." />
@@ -579,8 +171,8 @@
       <file leaf-file-name="trade.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/diplomacy/trade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -589,8 +181,8 @@
       <file leaf-file-name="population.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/manage/population.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -599,7 +191,7 @@
       <file leaf-file-name="government.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/manage/government.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1733">
+            <state relative-caret-position="-607">
               <caret line="2581" column="53" lean-forward="false" selection-start-line="2581" selection-start-column="18" selection-end-line="2581" selection-end-column="53" />
               <folding>
                 <element signature="n#h2#0;n#div#0;n#!!top" expanded="false" />
@@ -1165,7 +757,7 @@
       <file leaf-file-name="act.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/manage/act.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="-157">
               <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="46" />
               <folding />
             </state>
@@ -1179,18 +771,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="act1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/manage/act/act1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leader.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/manage/leader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="1904" column="89" lean-forward="true" selection-start-line="1904" selection-start-column="89" selection-end-line="1904" selection-end-column="89" />
+            <state relative-caret-position="-389">
+              <caret line="1904" column="89" lean-forward="false" selection-start-line="1904" selection-start-column="89" selection-end-line="1904" selection-end-column="89" />
               <folding>
                 <marker date="1484628184000" expanded="false" signature="327198:327235" ph="..." />
                 <marker date="1484628184000" expanded="false" signature="327303:327414" ph="..." />
@@ -1334,7 +919,6 @@
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/js/common1.js" />
         <option value="$PROJECT_DIR$/html/wiki/progress/progress.html" />
-        <option value="$PROJECT_DIR$/html/wiki/frame-tgp.html" />
         <option value="$PROJECT_DIR$/html/wiki/find/ftl.html" />
         <option value="$PROJECT_DIR$/images/find/thought.html" />
         <option value="$USER_HOME$/Desktop/stellaris/发现/思潮.html" />
@@ -1346,6 +930,8 @@
         <option value="$PROJECT_DIR$/html/wiki/manage/leader.html" />
         <option value="$PROJECT_DIR$/html/wiki/military/groundBattle.html" />
         <option value="$PROJECT_DIR$/html/wiki/diplomacy/trade.html" />
+        <option value="$PROJECT_DIR$/html/wiki/frame-game.html" />
+        <option value="$PROJECT_DIR$/html/wiki/frame-tgp.html" />
       </list>
     </option>
   </component>
@@ -1357,8 +943,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="954" />
-    <option name="y" value="104" />
+    <option name="x" value="548" />
+    <option name="y" value="472" />
     <option name="width" value="1182" />
     <option name="height" value="917" />
   </component>
@@ -1676,15 +1262,15 @@
       <workItem from="1484574806315" duration="1466000" />
       <workItem from="1484618425383" duration="12000" />
       <workItem from="1484620557174" duration="188000" />
-      <workItem from="1484622592220" duration="6117000" />
+      <workItem from="1484622592220" duration="7476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15970000" />
+    <option name="totallyTimeSpent" value="17329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="954" y="104" width="1182" height="917" extended-state="0" />
+    <frame x="548" y="472" width="1182" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26226735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1844,14 +1430,6 @@
             <marker date="1484618381000" expanded="true" signature="5606:5789" ph="..." />
             <marker date="1484618381000" expanded="true" signature="8508:8624" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/wiki/frame-tgp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -7335,7 +6913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/manage/act.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="-157">
           <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="46" />
           <folding />
         </state>
@@ -7343,8 +6921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/manage/leader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="1904" column="89" lean-forward="true" selection-start-line="1904" selection-start-column="89" selection-end-line="1904" selection-end-column="89" />
+        <state relative-caret-position="-389">
+          <caret line="1904" column="89" lean-forward="false" selection-start-line="1904" selection-start-column="89" selection-end-line="1904" selection-end-column="89" />
           <folding>
             <marker date="1484628184000" expanded="false" signature="327198:327235" ph="..." />
             <marker date="1484628184000" expanded="false" signature="327303:327414" ph="..." />
@@ -7416,17 +6994,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/wiki/manage/population.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/manage/government.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1733">
+        <state relative-caret-position="-607">
           <caret line="2581" column="53" lean-forward="false" selection-start-line="2581" selection-start-column="18" selection-end-line="2581" selection-end-column="53" />
           <folding>
             <element signature="n#h2#0;n#div#0;n#!!top" expanded="false" />
@@ -7990,7 +7560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/military/groundBattle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="90">
           <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
           <folding>
             <marker date="1484628847000" expanded="true" signature="2689:2959" ph="..." />
@@ -8105,26 +7675,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/wiki/beginner/empireChoice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/diplomacy/trade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/wiki/manage/population.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/frame-game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/wiki/beginner/empireChoice.html">
+    <entry file="file://$PROJECT_DIR$/html/wiki/frame-tgp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
           <folding />
         </state>
       </provider>
