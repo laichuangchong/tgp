@@ -1,0 +1,1451 @@
+<div ng-controller="groundBattle">
+    <h1 class="title">陆战</h1>
+    <p>
+        陆军被用于登陆作战与保卫行星。</p>
+    <p> 帝国可以以所在行星上的的任一物种组建军队。当部队登舰时，运输船会自动生成。从1.3版本开始，如果行星驻军已满，新的陆军会自动登舰。</p>
+    <p> 每个 霸权专制帝国的监督者都会被允许组建一支精英突击部队。</p>
+    <p> 已组建的部队每月需要支付 能量币来维持。</p>
+    <table class="table table-bordered table-condensed">
+      <thead>
+        <tr class="firstRow">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 部队类型
+                <o:p></o:p>
+          </strong></p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 价格
+                <o:p></o:p>
+          </strong></p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 训练时间
+                <o:p></o:p>
+          </strong></p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 陆军伤害
+                <o:p></o:p>
+          </strong></p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 士气伤害
+                <o:p></o:p>
+          </strong></p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 健康值
+                <o:p></o:p>
+          </strong></p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 士气
+                <o:p></o:p>
+          </strong></p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 维护
+                <o:p></o:p>
+          </strong></p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 解锁条件
+                <o:p></o:p>
+          </strong></p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:69.0pt"><p><strong> 描述
+                <o:p></o:p>
+          </strong></p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 卫戍部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1078"
+                                                                 type="#_x0000_t75" alt="IMG_260" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_260"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image007.gif" alt="IMG_260" v:shapes="_x0000_i1078"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            0
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1077"
+                                                                 type="#_x0000_t75" alt="IMG_261" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_261"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image009.gif" alt="IMG_261" v:shapes="_x0000_i1077"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            0
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 0.75 - 1.50
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 0.75 - 1.50
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 150
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 150
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 0.0
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 起始科技
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt"><p> 每个星球都有一支卫戍部队，规模由行星人口数量决定。卫戍部队不能移动到其他星球。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:2;height:84.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 防御部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1076"
+                                                                 type="#_x0000_t75" alt="IMG_262" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_262"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image010.gif" alt="IMG_262" v:shapes="_x0000_i1076"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            30
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1075"
+                                                                 type="#_x0000_t75" alt="IMG_263" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_263"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image011.gif" alt="IMG_263" v:shapes="_x0000_i1075"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            30
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 1.50 - 3.00
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 1.50 - 3.00
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width: 1cm; border: none; padding: 4pt; height: 84pt; word-break: break-all;"><p> 200
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 200
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 0.15
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 起始科技
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:84.0pt"><p> 防御部队十分强力但是不能移动到其他星球。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:3;height:86.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 突击部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1074"
+                                                                 type="#_x0000_t75" alt="IMG_264" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_264"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image012.gif" alt="IMG_264" v:shapes="_x0000_i1074"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            60
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1073"
+                                                                 type="#_x0000_t75" alt="IMG_265" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_265"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image013.gif" alt="IMG_265" v:shapes="_x0000_i1073"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            90
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 1.73 - 3.45
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 1.98 - 3.97
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 230
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 230
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 0.33
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 起始科技
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:86.0pt"><p> 突击部队乘坐自己的运输船可以登陆行星作战。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:4;height:222.35pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 奴隶兵
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1072"
+                                                                 type="#_x0000_t75" alt="IMG_266" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_266"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image014.gif" alt="IMG_266" v:shapes="_x0000_i1072"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            20
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1071"
+                                                                 type="#_x0000_t75" alt="IMG_267" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_267"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image015.gif" alt="IMG_267" v:shapes="_x0000_i1071"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            60
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 1.73 - 3.45
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 1.73 - 3.45
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 230
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 200
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 0.25
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p>
+            <!--[if gte vml 1]><v:shape
+                            id="_x0000_i1070" type="#_x0000_t75" alt="IMG_268" style='width:15pt;
+   height:15pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image016.png" o:title="IMG_268"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="17" height="17" src="../../images/military/groundBattle/image017.gif" alt="IMG_268" v:shapes="_x0000_i1070"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            神经植入体
+            <o:p></o:p>
+          </p>
+            <p>
+              <o:p> &nbsp; </o:p>
+            </p>
+            <p> 行星有奴隶处理设施
+              <o:p></o:p>
+            </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.35pt"><p> 努力并为其主人战斗。他们大部分都是被强制征召的，但是也有许多奴隶志愿参军已获得更好的事物并从繁重的体力劳动中解脱。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:5;height:222.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 克隆部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1069"
+                                                                 type="#_x0000_t75" alt="IMG_269" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_269"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image018.gif" alt="IMG_269" v:shapes="_x0000_i1069"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            60
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1068"
+                                                                 type="#_x0000_t75" alt="IMG_270" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_270"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image019.gif" alt="IMG_270" v:shapes="_x0000_i1068"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            30
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 1.88 - 3.75
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 2.34 - 4.69
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 250
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 250
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 0.33
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape
+                            id="officeArt_x0020_object" o:spid="_x0000_i1025" type="#_x0000_t75" alt="说明: IMG_271"
+                            style='width:15pt;height:15pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image001.gif" o:title="IMG_271"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="17" height="17" src="../../images/military/groundBattle/image020.gif" alt="说明: IMG_271" v:shapes="officeArt_x0020_object"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            克隆
+            <o:p></o:p>
+          </p>
+            <p>
+              <o:p> &nbsp; </o:p>
+            </p>
+            <p> 行星有克隆仓
+              <o:p></o:p>
+            </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 人工培养的克隆人可以在几个月内长成成人，但他们的自然寿命不足十年。他们虽然缺乏主观能动性但可以用对长官的绝对服从弥补这一缺点
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:6;height:171.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 机器人部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1067"
+                                                                 type="#_x0000_t75" alt="IMG_272" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_272"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image021.gif" alt="IMG_272" v:shapes="_x0000_i1067"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            15
+            <!--[if gte vml 1]><v:shape id="_x0000_i1066" type="#_x0000_t75"
+                                                alt="IMG_273" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_273"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image022.gif" alt="IMG_273" v:shapes="_x0000_i1066"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            100
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1065"
+                                                                 type="#_x0000_t75" alt="IMG_274" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_274"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image023.gif" alt="IMG_274" v:shapes="_x0000_i1065"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            90
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 1.65 - 3.30
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 1.65 - 3.30
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 400
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 200
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 0.50
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1064"
+                                                                 type="#_x0000_t75" alt="IMG_275" style='width:39pt;height:39pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image024.png" o:title="IMG_275"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="41" height="41" src="../../images/military/groundBattle/image025.gif" alt="IMG_275" v:shapes="_x0000_i1064"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            智能人
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 针对战争设计的冷血杀戮机器。他们毫不留情地追赶目标， 不会像生物组成的部队那样因士气低落而产生动摇。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:7;height:205.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 智能部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1063"
+                                                                 type="#_x0000_t75" alt="IMG_276" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_276"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image026.gif" alt="IMG_276" v:shapes="_x0000_i1063"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            20
+            <!--[if gte vml 1]><v:shape id="_x0000_i1062" type="#_x0000_t75"
+                                                alt="IMG_277" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_277"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image027.gif" alt="IMG_277" v:shapes="_x0000_i1062"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            150
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1061"
+                                                                 type="#_x0000_t75" alt="IMG_278" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_278"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image028.gif" alt="IMG_278" v:shapes="_x0000_i1061"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            120
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 3.00 - 6.00
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 3.00 - 6.00
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 500
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 200
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 1.00
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1060"
+                                                                 type="#_x0000_t75" alt="IMG_279" style='width:39pt;height:39pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image029.png" o:title="IMG_279"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="41" height="41" src="../../images/military/groundBattle/image030.gif" alt="IMG_279" v:shapes="_x0000_i1060"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            合成人
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 半自动的士兵组成这个加添满了油的战争机器。比起机器人，智能战斗员更灵活，更具侵略性，也能更好地处理各类战场情况。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:8;height:222.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 灵能部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1059"
+                                                                 type="#_x0000_t75" alt="IMG_280" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_280"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image031.gif" alt="IMG_280" v:shapes="_x0000_i1059"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            50
+            <!--[if gte vml 1]><v:shape id="_x0000_i1058" type="#_x0000_t75"
+                                                alt="IMG_281" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_281"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image032.gif" alt="IMG_281" v:shapes="_x0000_i1058"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            250
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1057"
+                                                                 type="#_x0000_t75" alt="IMG_282" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_282"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image033.gif" alt="IMG_282" v:shapes="_x0000_i1057"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            360
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 2.63 - 5.25
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 7.89 - 15.75
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 250
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 600
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 0.80
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1056"
+                                                                 type="#_x0000_t75" alt="IMG_283" style='width:39pt;height:39pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image034.png" o:title="IMG_283"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="41" height="41" src="../../images/military/groundBattle/image035.gif" alt="IMG_283" v:shapes="_x0000_i1056"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            心灵感应
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 有着超能力的部队。他们破坏性的超能力让他们可以在战场使用不一样的战术——他————他们的首要目标往往是摧毁对方的战斗意志。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:9;height:222.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 异形部队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1055"
+                                                                 type="#_x0000_t75" alt="IMG_284" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_284"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image036.gif" alt="IMG_284" v:shapes="_x0000_i1055"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            25
+            <!--[if gte vml 1]><v:shape id="_x0000_i1054" type="#_x0000_t75"
+                                                alt="IMG_285" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_285"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image037.gif" alt="IMG_285" v:shapes="_x0000_i1054"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            125
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1053"
+                                                                 type="#_x0000_t75" alt="IMG_286" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_286"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image038.gif" alt="IMG_286" v:shapes="_x0000_i1053"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            360
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 3.75 - 7.50
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 3.75 - 7.50
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 400
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 200
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 0.75
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1052"
+                                                                 type="#_x0000_t75" alt="IMG_287" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image039.png" o:title="IMG_287"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image040.gif" alt="IMG_287" v:shapes="_x0000_i1052"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            形态形成场精通
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:222.0pt"><p> 成千上万用生物工程设计的饥饿怪兽由尖牙厉爪和对杀戮的渴望组成。一群科学家在远离前线的坚固地堡里监督驱赶着这些暴怒的虫群。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:10;height:171.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 基因战士
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1051"
+                                                                 type="#_x0000_t75" alt="IMG_288" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_288"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image041.gif" alt="IMG_288" v:shapes="_x0000_i1051"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            50
+            <!--[if gte vml 1]><v:shape id="_x0000_i1050" type="#_x0000_t75"
+                                                alt="IMG_289" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_289"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image042.gif" alt="IMG_289" v:shapes="_x0000_i1050"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            350
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1049"
+                                                                 type="#_x0000_t75" alt="IMG_290" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_290"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image043.gif" alt="IMG_290" v:shapes="_x0000_i1049"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            360
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 4.50 - 9.00
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 9.00 - 18.00
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 600
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 400
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 1.00
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1048"
+                                                                 type="#_x0000_t75" alt="IMG_291" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image044.png" o:title="IMG_291"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image045.gif" alt="IMG_291" v:shapes="_x0000_i1048"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            基因种子提纯
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt"><p> 基因改造的超级士兵。 从传统的部队里招募精英作为新兵。然后进行基因改造使得他们比原来更大更强更快。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:11;height:205.0pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 泰坦巨兽
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1047"
+                                                                 type="#_x0000_t75" alt="IMG_292" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_292"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image046.gif" alt="IMG_292" v:shapes="_x0000_i1047"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            50
+            <!--[if gte vml 1]><v:shape id="_x0000_i1046" type="#_x0000_t75"
+                                                alt="IMG_293" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_293"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image047.gif" alt="IMG_293" v:shapes="_x0000_i1046"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            350
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1045"
+                                                                 type="#_x0000_t75" alt="IMG_294" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_294"/></v:shape><![endif]-->
+            <!--[if-->
+            <img width="20" height="20" src="../../images/military/groundBattle/image048.gif" alt="IMG_294" v:shapes="_x0000_i1045"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            90
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 4.72 - 9.45
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 9.45 - 18.90
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 1000
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 400
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 0.8
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 巨型生命形态事件Event链
+            <o:p></o:p>
+          </p></td>
+          <td style="width:92.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:205.0pt"><p> 研究上的突破让我们也能把泰坦生命形式转化为军事单位，但由于此物种极为稀有，我们只能同时保持有限的几只泰坦部队。
+            <o:p></o:p>
+          </p></td>
+        </tr>
+        <tr style="mso-yfti-irow:12;mso-yfti-lastrow:yes;height:111.35pt">
+          <td width="46" style="width:46.4pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p> 精英卫队
+            <o:p></o:p>
+          </p></td>
+          <td width="22" style="width:22.15pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1044"
+                                                                 type="#_x0000_t75" alt="IMG_295" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_295"/></v:shape><![endif]-->
+            <!--[if-->
+            <img border="0" width="20" height="20" src="../../images/military/groundBattle/image049.gif" alt="IMG_295" v:shapes="_x0000_i1044"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            15
+            <!--[if gte vml 1]><v:shape id="_x0000_i1043" type="#_x0000_t75"
+                                                alt="IMG_296" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_296"/></v:shape><![endif]-->
+            <!--[if-->
+            <img border="0" width="20" height="20" src="../../images/military/groundBattle/image050.gif" alt="IMG_296" v:shapes="_x0000_i1043"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            115
+            <o:p></o:p>
+          </p></td>
+          <td width="29" style="width:29.3pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p>
+            <!--[if gte vml 1]><v:shape id="_x0000_i1042"
+                                                                 type="#_x0000_t75" alt="IMG_297" style='width:18pt;height:18pt;visibility:visible;
+   mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image008.png" o:title="IMG_297"/></v:shape><![endif]-->
+            <!--[if-->
+            <img border="0" width="20" height="20" src="../../images/military/groundBattle/image051.gif" alt="IMG_297" v:shapes="_x0000_i1042"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            115
+            <o:p></o:p>
+          </p></td>
+          <td style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p> 2.62 - 5.25
+            <o:p></o:p>
+          </p></td>
+          <td style="width:49.6pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p> 4.59 - 9.18
+            <o:p></o:p>
+          </p></td>
+          <td width="28" style="width:1.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p> 350
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.55pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p> 350
+            <o:p></o:p>
+          </p></td>
+          <td width="43" style="width:42.5pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p> 0.50
+            <o:p></o:p>
+          </p></td>
+          <td width="85" style="width:3.0cm;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:111.35pt"><p>
+            <!--[if gte vml 1]><v:shape
+                            id="_x0000_i1041" type="#_x0000_t75" alt="IMG_298" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image002.png" o:title="IMG_298"/></v:shape><![endif]-->
+            <!--[if-->
+            <img border="0" width="20" height="20" src="../../images/military/groundBattle/image052.gif" alt="IMG_298" v:shapes="_x0000_i1041"/>
+            <!--[endif]-->
+            <!--![endif]-->
+            <!--![if-->
+            霸权专制 </p>
+            <p> 每一位统治者一次 </p></td>
+          <td><p> 统治者的个人卫队。 </p></td>
+        </tr>
+      </tbody>
+    </table>
+<h2 class="title">战斗</h2>
+    <p>
+        地面战斗在两军接敌的时候发生。防御方由星球上的陆军单位以及一些免费但弱小的的驻军组成。驻军的基础单位为2，每个人口额外增加0.4.</p>
+    <p> 进攻方造成的伤害由行星工事为基础的修正所换算。在行星工事强度为100%时，对防御方的伤害将会减少90%，当强度为0%时，防御方受到两倍的伤害。因此，强烈建议指挥官们在充分的轨道轰炸，减少行星工事强度后再行登陆。</p>
+    <p> 行星工事强度随人口增长而增长，基础值为1000，每增加1人口，行星工事强度增加100。</p>
+    <p>
+        每个陆军单位都有生命值和士气，也就是对这两个值的最大损伤量。伤害每天结算一次，目标是随机敌军，直到任一方失去所有部队为止。如果某支部队的士气被打光，那他所造成的伤害将减少75%。如果某支部队的生命值被打光，则这支部队被摧毁。失去所有部队的一方战斗失败。</p>
+    <p> 陆军不能登录无人口的星球，这种状况可能是战争失败人口被净化造成的。每个行星上最多只能部署12只非驻军部队，但攻击方可以使用远超此数的部队登陆星球。</p>
+    <p> 附件是增强陆军的模组。它们由科技解锁，可以独立的装载在每个陆军部队上。只有在我方星球上才能更换附件。
+
+    </p>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:35.0pt" class="firstRow">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:35.0pt">
+                <p>
+                    附件
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:35.0pt">
+                <p class="MsoNormal" style="text-align:center;mso-pagination:
+   widow-orphan">
+                    <strong><span style="mso-bidi-font-family:
+   宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">价格</span></strong>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:35.0pt">
+                <p class="MsoNormal" style="text-align:center;mso-pagination:
+   widow-orphan">
+                    <strong><span style="mso-bidi-font-family:
+   宋体;mso-font-kerning:0pt">所需科技</span></strong>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+   height:35.0pt">
+                <p class="MsoNormal" style="text-align:center;mso-pagination:
+   widow-orphan">
+                    <strong><span style="mso-bidi-font-family:
+   宋体;mso-font-kerning:0pt">效果</span></strong>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+   4.0pt 4.0pt 4.0pt 4.0pt;height:35.0pt">
+                <p class="MsoNormal" style="text-align:center;mso-pagination:
+   widow-orphan">
+                    <strong><span style="mso-bidi-font-family:
+   宋体;mso-font-kerning:0pt">描述</span></strong><strong><span style="font-size:
+   12.0pt;mso-bidi-mso-font-kerning:
+   0pt"> </span></strong>
+                </p>
+            </td>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="mso-yfti-irow:1;height:171.0pt">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">猎狐犬哨机群</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">50</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1040" type="#_x0000_t75" alt="IMG_299" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_299"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image053.gif" alt="IMG_299" v:shapes="_x0000_i1040"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <strong><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-color:green;mso-ansi-language:ZH-CN">起始科技</span></strong><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:171.0pt">
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军伤害：</span><strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:green">+15.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+  4.0pt 4.0pt 4.0pt 4.0pt;height:171.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt;mso-bidi-font-style:
+  italic">以压制敌人为目的，向敌人阵地投放大量相对简单的无人机群。尽管单独一架无人机不会对训练有素的士兵造成什么威胁，但是成百上千架无人机就不那么好对付了。</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+
+        </tr>
+        <tr style="mso-yfti-irow:2;height:137.0pt">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">政委小组</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">25</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1039" type="#_x0000_t75" alt="IMG_300" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_300"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image054.gif" alt="IMG_300" v:shapes="_x0000_i1039"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"><br/>
+ &nbsp;50</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:
+  minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1038" type="#_x0000_t75" alt="IMG_301" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_301"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image055.gif" alt="IMG_301" v:shapes="_x0000_i1038"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                            id="_x0000_i1037" type="#_x0000_t75" alt="IMG_302" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image056.png" o:title="IMG_302"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image057.gif" alt="IMG_302" v:shapes="_x0000_i1037"/><!--[endif]--><!--![endif]--><!--![if--></span><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">权力意志</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:137.0pt">
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军伤害：</span><strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:green">+15.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white"><o:p></o:p></span>
+                </p>
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军士气：</span><span style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+  mso-hansi-theme-font:minor-fareast;color:white"> </span><strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:green">+10.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:white"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+  4.0pt 4.0pt 4.0pt 4.0pt;height:137.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt;mso-bidi-font-style:
+  italic">维持奴隶部队的纪律是一项艰难的任务，但对于政委小组来说却是小菜一碟。通过实行抽杀法和其他严厉的惩戒，奴隶们会畏惧政委胜过敌人。</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+
+
+        </tr>
+        <tr style="mso-yfti-irow:3;height:120.0pt">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:120.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">新型混凝土堡垒</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:120.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">50</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1036" type="#_x0000_t75" alt="IMG_303" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_303"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image058.gif" alt="IMG_303" v:shapes="_x0000_i1036"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:120.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                            id="_x0000_i1035" type="#_x0000_t75" alt="IMG_304" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image059.png" o:title="IMG_304"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image060.gif" alt="IMG_304" v:shapes="_x0000_i1035"/><!--[endif]--><!--![endif]--><!--![if--></span><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">纳米复合材料</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:120.0pt">
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军健康值：</span><span style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+  mso-hansi-theme-font:minor-fareast;color:white"> </span><strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:green">+10.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:white"><o:p></o:p></span>
+                </p>
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军维护：</span><span style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+  mso-hansi-theme-font:minor-fareast;color:white"> </span><strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:green">-10.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:white"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+  4.0pt 4.0pt 4.0pt 4.0pt;height:120.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt;mso-bidi-font-style:
+  italic">新实体地面堡垒的扩展层和掩体网为轨道轰炸提供了进一步防护。这限制了军队的机动性，但在防御作战时会成为关键。</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+
+        </tr>
+        <tr style="mso-yfti-irow:4;height:154.0pt">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">灵能战士</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">25</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1034" type="#_x0000_t75" alt="IMG_305" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_305"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image061.gif" alt="IMG_305" v:shapes="_x0000_i1034"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"><br/>
+ &nbsp;50</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:
+  minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1033" type="#_x0000_t75" alt="IMG_306" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_306"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image062.gif" alt="IMG_306" v:shapes="_x0000_i1033"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                            id="_x0000_i1032" type="#_x0000_t75" alt="IMG_307" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image063.png" o:title="IMG_307"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image064.gif" alt="IMG_307" v:shapes="_x0000_i1032"/><!--[endif]--><!--![endif]--><!--![if--></span><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">灵能理论</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军伤害：</span><strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:green">+10.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white"><o:p></o:p></span>
+                </p>
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">士气伤害：</span><span style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+  mso-hansi-theme-font:minor-fareast;color:white"> </span><strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:green">+15.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:white"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+  4.0pt 4.0pt 4.0pt 4.0pt;height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt;mso-bidi-font-style:
+  italic">这些精英战士充满了神秘色彩，他们凭借强大的心灵异能和大量的身体训练在战场上穿梭。灵能战士对近战武器十分精通，他们更喜欢和敌人近身作战。</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+
+        </tr>
+        <tr style="mso-yfti-irow:5;height:154.0pt">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">异星铁骑</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">25</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1031" type="#_x0000_t75" alt="IMG_308" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_308"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image065.gif" alt="IMG_308" v:shapes="_x0000_i1031"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"><br/>
+ &nbsp;50</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:
+  minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1030" type="#_x0000_t75" alt="IMG_309" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_309"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image066.gif" alt="IMG_309" v:shapes="_x0000_i1030"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                            id="_x0000_i1029" type="#_x0000_t75" alt="IMG_310" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image067.png" o:title="IMG_310"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image068.gif" alt="IMG_310" v:shapes="_x0000_i1029"/><!--[endif]--><!--![endif]--><!--![if--></span><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">定向基因表达</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军伤害：</span><strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:green">+10.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white"><o:p></o:p></span>
+                </p>
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军健康值：</span><span style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+  mso-hansi-theme-font:minor-fareast;color:white"> </span><strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:green">+15.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:white"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+  4.0pt 4.0pt 4.0pt 4.0pt;height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt;mso-bidi-font-style:
+  italic">这些健壮的战争野兽一旦找到契合的骑手，就会成为优秀的坐骑。它们几乎可以翻越任何地形，尤其适合进行侦察和突击。大型战争野兽也会被用作重型武器平台</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+
+        </tr>
+        <tr style="mso-yfti-irow:6;mso-yfti-lastrow:yes;height:154.0pt">
+            <td width="99" style="width:99.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">克隆人突击队</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="27" style="width:27.35pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">25</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1028" type="#_x0000_t75" alt="IMG_311" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image004.png" o:title="IMG_311"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image069.gif" alt="IMG_311" v:shapes="_x0000_i1028"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"><br/>
+ &nbsp;50</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:
+  minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                        id="_x0000_i1027" type="#_x0000_t75" alt="IMG_312" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image006.png" o:title="IMG_312"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image070.gif" alt="IMG_312" v:shapes="_x0000_i1027"/><!--[endif]--><!--![endif]--><!--![if--></span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="88" style="width:88.2pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+                            id="_x0000_i1026" type="#_x0000_t75" alt="IMG_313" style='width:18pt;
+   height:18pt;visibility:visible;mso-wrap-style:square'><v:imagedata src="../../images/military/groundBattle/image071.png" o:title="IMG_313"/></v:shape><![endif]--><!--[if--><img border="0" width="20" height="20" src="../../images/military/groundBattle/image072.gif" alt="IMG_313" v:shapes="_x0000_i1026"/><!--[endif]--><!--![endif]--><!--![if--></span><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt">基因库</span><span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt"> </span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="90" style="width:89.9pt;border:none;padding:4.0pt 4.0pt 4.0pt 4.0pt;
+  height:154.0pt">
+                <p class="MsoNormal" style="mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white">陆军伤害：</span><strong><span lang="EN-US" style="font-size:9.0pt;
+  mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+  minor-fareast;mso-hansi-theme-font:minor-fareast;color:green">+25.0%</span></strong><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  color:white"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width="107" style="width:107.15pt;border:none;padding:
+  4.0pt 4.0pt 4.0pt 4.0pt;height:154.0pt">
+                <p class="MsoNormal" style="text-align:left;mso-pagination:widow-orphan">
+                    <span style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+  mso-bidi-mso-font-kerning:0pt;mso-bidi-font-style:
+  italic">这些加速成长的杀手需要耗费大量的成本，但是极端的调整和训练能使他们成为优秀的士兵。这样的士兵比普通克隆人更有主见，甚至其中一些人开始有怪癖了。</span><span lang="EN-US" style="font-size:9.0pt;mso-ascii-theme-font:minor-fareast;
+  mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"><o:p></o:p></span>
+                </p>
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+    <p>
+        运输船是以星球为基地，用于让军队转场的特殊飞船。防御部队不能被转运。和其他舰船不同，运输船不需要太空站来生产（但仍能在舰船设计中修改），它们可以在行星的军队菜单里找到。突击部队将会以1:1的比例登舰并转移至其他行星，也可通过右键点击来逐个登陆。当你命令陆军登陆时，你可以看到运输船放下了小小的空降仓。</p>
+    <p> 除此之外，在某些事件（你可以在项目日志中查看）中，你可能会需要运输船来完成一些任务，比如登陆一艘星际飞船。</p>
+    <p> 以下是游戏中的军队类型。 每一种陆军都有其特殊意义。</p>
+    <p>
+        *卫戍部队是免费生成的，规模由行星人口数量决定。卫戍部队总是帝国的主流物种，不占用驻军空间，也不需要维护。在1.3版本中，卫戍部队会在被占领时自动生成，以帮助其更容易的控制行星，但生成的卫戍部队将是星球原有者的主流物种。对卫戍部队而言，他们自己不过是螳臂当车而已。但它们也可以作为防御方有效的减伤护盾。</p>
+    <p> *突击部队能用来入侵行星，当然你也可以用更强力的部队代替。它们攻守兼备，但价格昂贵不易扩军。</p>
+    <p> *防御部队是突击部队的防御劣化版。它们不能在宇宙间移动，只能用于保卫行星。一分钱一分货，他们在各种层面上都弱于突击部队。在与高级陆军的作战中，他们显得脆弱而过时。星区AI会在每个星球建立5支防御部队。</p>
+    <p> *精英卫队是统治者的独有部队，大概等价于两只突击部队。弱于后期部队。</p>
+    <p> *奴隶兵是蓄奴帝国的特种突击部队。它们比突击部队便宜，但实力却与之极其相近。蓄奴帝国通常会采用奴隶兵来代替突击部队。</p>
+    <p> *克隆部队尽管在价格上和突击部队相同，但在生产时间与战斗效率上都要强于前者。是替代突击部队的绝佳兵种。</p>
+    <p> *机器人部队 /
+        智能部队允许研究了人工智能科技线的帝国使用。他们可以通过接下来的技术组建，并且火力强大，只需要少量的费用就能维护。在1.3版本中它们能否无视士气伤害尚不清楚。他们不受AI的政策限制，也不需要对应的人口来重组。在机器人觉醒中，AI将只使用它们做为地面部队，也会解放每个星球上可能生成的机器人。</p>
+    <p> *灵能部队允许研究了灵能科技线的帝国使用。这些部队生命值不高，但能很有效的打击敌方的士气。而士气见底的敌军对灵能部队所造成的伤害就更少。</p>
+    <p> *异形部队通常由虫群所控制。可由遗传工程线所得。</p>
+    <p> *基因战士就是通常说的星际战士。可以视作灵能部队强化版。失落帝国的首选部队。</p>
+    <p> 以下陆军只能用事件或特殊项目来获得。</p>
+    <p> *泰坦巨兽可以被理解为哥斯拉和他的小伙伴。整个游戏中只能同时组建三支这种陆军部队。</p>
+    <p> *泰坦守护者是一种特殊的卫戍部队。作为对完成任务的微薄奖励，会在完成了泰坦事件的星球上生成。</p>
+    <p> *原始部队 / 工业时代部队 / 后原子时代部队 前太空文明所特有的部队。战斗力甚至比卫戍部队还要差（当然它们本身也是卫戍部队）。他们只会在物种进入太空前傻呆在那，占据着宝贵的驻军槽。</p>
+    <p> *虫群大军只会在虫群危机中生成，它只是基因战士的强化版，战力大概与两个机器人部队相仿。</p>
+    <p> *叛军是在派系斗争中生成的。它们的战力甚至在防御部队之下，只能与卫戍部队相抗衡。但它们有人口优势（每个人口对应一个叛变部队）。在被打败后便不再生成。</p>
+    <p> *奴隶叛军只会在对蓄奴制不满的派系斗争中产生。它们的战力勉强超过防御部队。在战胜后也会扮演和防御部队一样的职能。</p>
+    <p> *变种人会在地貌改造事件链中出现。它们比基因战士还要强。
+
+    </p>
+</div>

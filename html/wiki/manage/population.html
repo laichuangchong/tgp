@@ -1,0 +1,740 @@
+<div ng-controller="population">
+    <h1 class="title">人口</h1>
+    <p>
+        星球人口是生产和政治的中心。 行星的人口由一个个单位人口组成，每个单位存在于行星上的地块上。 拥有建筑物的地块也必须被人口占用，只有这样才能使建筑物的效果启动生效。
+    </p>
+    <h2 class="title">人口增涨</h2>
+    <p>
+        任何具有过剩食物和至少一个空余地块的行星的人口将会自然增长，除非相关种族被政府政策禁止。 正在增长的人口由空余地块上的相应种族的半透明图标进行表示，下面的蓝色条代表生长进程。
+    </p>
+    <img src="../../images/manage/population/population1.png" alt="">
+    <p>
+        未来新增的人口将优先出现在产生资源的空余地块上。 如果没有生产资源的地块可用，它将增长在没有被占用的任何空地块上。 正在增长的人口可以提前在另一个地块上重新安置。</p>
+    <p> 人口计算以基于粮食富裕与食物缺口决定的人口点数和当前增长人口所需的人口点数总量。 准确的计算公式如下。</p>
+    <p> 需要的人口点数总量：</p>
+    <p>（25+ size penalty（当前行星人口规模））*（2- habitability（行星宜居度）+（growth rate）生长速度）</p>
+    <p> 因此，一个具有15个人口的行星和80％的宜居度和政府拥有快速增殖法案（-10％的生长时间）的行星需要</p>
+    <p> （25 + 45.4）*（2 - 0.8 + -0.1）= 77.44需要人口点数，才能获得下一个人口。</p>
+    <p> 每月人口点数获取</p>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>食物富裕与食物缺口</th>
+            <th>人口点数</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>少于0</td>
+            <td>X (损失得人口数量等于食物缺口)</td>
+        </tr>
+        <tr>
+            <td>在0~1之间</td>
+            <td>人口增涨停滞</td>
+        </tr>
+        <tr>
+            <td>多余1</td>
+            <td>1 + (X（多余的食物量） - 1) / 10</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>当前行星人口规模的数值计算所给予的公式为：1.65P+`p^1.12`&nbsp;&nbsp;P为当前人口数，具体数值依据下表，16以上按照公式可以推算出来。</p>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>当前人口规模</th>
+            <th>人口规模决定的人口点数</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>15</td>
+            <td>45.4</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td> 42.3</td>
+        </tr>
+        <tr>
+            <td> 13</td>
+            <td> 39.1</td>
+        </tr>
+        <tr>
+            <td> 12</td>
+            <td> 35.9</td>
+        </tr>
+        <tr>
+            <td> 11</td>
+            <td> 32.7</td>
+        </tr>
+        <tr>
+            <td> 10</td>
+            <td> 29.6</td>
+        </tr>
+        <tr>
+            <td> 9</td>
+            <td> 26.5</td>
+        </tr>
+        <tr>
+            <td> 8</td>
+            <td> 23.4</td>
+        </tr>
+        <tr>
+            <td> 7</td>
+            <td> 20.3</td>
+        </tr>
+        <tr>
+            <td> 6</td>
+            <td> 17.3</td>
+        </tr>
+        <tr>
+            <td> 5</td>
+            <td> 14.3</td>
+        </tr>
+        <tr>
+            <td> 4</td>
+            <td> 11.3</td>
+        </tr>
+        <tr>
+            <td> 3</td>
+            <td> 8.3</td>
+        </tr>
+        <tr>
+            <td> 2</td>
+            <td> 5.4</td>
+        </tr>
+        <tr>
+            <td> 1</td>
+            <td> 2.6</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2 class="title">幸福度</h2>
+    <p>
+        每个人口有一个个人幸福度评价。低幸福度的人口将会影响工作效率，也更有可能产生派系。</p>
+    <p> 人口的幸福度受多种因素的影响。首先，政府类型如果以特定方式强调个性，可以对人口幸福度具有全球奖励。</p>
+    <p> 第二，个别人口已经发展了不同于他们种族的初始伦理，将倾向于低幸福度，因为他们的首选生活方式与政府管理理念相冲突。</p>
+    <p> 第三，最近征服的人口或被奴役的人口将会有非常低的幸福度，除非他们有非常高的奴隶制容忍度特性。</p>
+    <p> 当政府运行过程中，能源库存为零且增长为负时，人口也将倾向于低幸福度。星区产出为零，库存为0时不会降低星区内人口幸福度。</p>
+    <p> 幸运的是，有许多方法来提高帝国的幸福度。在帝国政府或星球总督（星区总督）一级发布的某些政策或法令可以提高整个帝国或受影响的星球上的人口的幸福度。某些政府类型可以建立在星球上建设改善幸福度的建筑。</p>
+    <p> 某些事件也可能对幸福度有影响，这将会有一个有限的持续时间。</p>
+    <p> 基础幸福度为50％。幸福度不能超过一个星球的宜居度。</p>
+    <h3 class="title"> Effects效果</h3>
+    <p> 高于50%或者低于50%幸福度的具体影响 </p>
+    <table class="table table-bordered table-contended">
+        <thead>
+        <tr>
+            <th>
+                名称
+            </th>
+            <th> 幸福度</th>
+            <th> 食物</th>
+            <th> 能量币矿产的产出</th>
+            <th> 研究</th>
+            <th> 思潮分歧
+
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                高幸福度
+            </td>
+            <td> 51 or greater</td>
+            <td> +0.4%</td>
+            <td> +0.4%</td>
+            <td> +0.4%</td>
+            <td> -0.4%
+            </td>
+        </tr>
+        <tr>
+            <td>初始值</td>
+            <td>50</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                低幸福度
+            </td>
+            <td> 49 or lower</td>
+            <td> 0%</td>
+            <td> -1.0%</td>
+            <td> -0.5%</td>
+            <td> 0%
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <p>一个60%的高幸福度人口将会得到 4.0% = (10% * 0.4).的加成</p>
+    <p> 一个34%的低幸福度人口将会得到16% = (16% * 1.0). 的加成</p>
+    <h3 class="title"> 幸福度设定</h3>
+    <h3 class="title"> 帝国政府法案</h3>
+    <table class="table table-bordered table-contended">
+        <thead>
+        <tr>
+            <th>
+                名称
+            </th>
+            <th> Value</th>
+            <th> Cause
+
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                社会保障计划
+            </td>
+            <td> +15%</td>
+            <td> 帝国征服颁布的一种法案</td>
+        </tr>
+        <tr>
+            <td> 改善奴隶工作环境</td>
+            <td> +5%</td>
+            <td> 帝国征服颁布的一种法案，面向奴隶人口的</td>
+        </tr>
+        <tr>
+            <td> 改善能量币倡议</td>
+            <td> +5%</td>
+            <td> 通过事件触发，颁布了“改善能量币计划”的法案</td>
+        </tr>
+        <tr>
+            <td> 受欢迎的领导者</td>
+            <td> +10%</td>
+            <td> 领导者拥有有欢迎的特质</td>
+        </tr>
+        <tr>
+            <td> 帝国政府的每一项政策</td>
+            <td> 具体情况具体分析</td>
+            <td> 每个帝国政策与每一个人口进行比较，具体的数值可以根据政策/思潮组合变化而变化</td>
+        </tr>
+        <tr>
+            <td> 宏大设计</td>
+            <td> +5%</td>
+            <td> 作为唯心主义政府和狂热唯心主义政府可以从虚空云中获得一个buff(10 years)</td>
+        </tr>
+        <tr>
+            <td> 长生树</td>
+            <td> +3%</td>
+            <td> 探索长生树的可能触发结果之一，另一个结果是续命50年</td>
+        </tr>
+        <tr>
+            <td> 咸咸的</td>
+            <td> +10%</td>
+            <td> 探索异常奖励的临时buff</td>
+        </tr>
+        <tr>
+            <td> 紫色雨</td>
+            <td> +10%</td>
+            <td> 探索异常奖励的临时buff</td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">星球buff</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>
+                名称
+            </th>
+            <th> Value</th>
+            <th> Cause
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                首都行星
+            </td>
+            <td> +10%</td>
+            <td> 出现在帝国政府首都</td>
+        </tr>
+        <tr>
+            <td> 宣传广播</td>
+            <td> +10%</td>
+            <td> 行星制定了“宣传广播”法令<br>狂热集体主义者不可用</td>
+        </tr>
+        <tr>
+            <td> 和平节</td>
+            <td> +10%</td>
+            <td> 行星已经颁布了“和平节”的命令<br>狂热和平主义者可用</td>
+        </tr>
+        <tr>
+            <td> 总督</td>
+            <td> +2%/level</td>
+            <td> 根据领导人等级</td>
+        </tr>
+        <tr>
+            <td> 受欢迎的领导者</td>
+            <td> +10%</td>
+            <td> 领导者具有相应的特点</td>
+        </tr>
+        <tr>
+            <td> 凶猛的野生动物</td>
+            <td> -5%</td>
+            <td> 行星具有凶猛的野生动物buff</td>
+        </tr>
+        <tr>
+            <td> 变幻莫测的天气</td>
+            <td> -5%</td>
+            <td> 行星具有变幻莫测的天气buff</td>
+        </tr>
+        <tr>
+            <td> 近期板块变动</td>
+            <td> -5%</td>
+            <td> 行星具有近期板块变动buff</td>
+        </tr>
+        <tr>
+            <td> 狂风骤雨</td>
+            <td> -5%</td>
+            <td> 行星具有狂风骤雨buff</td>
+        </tr>
+        <tr>
+            <td> 自然景观</td>
+            <td> +15%</td>
+            <td> 行星具有自然景观buff</td>
+        </tr>
+        <tr>
+            <td> 被辐射覆盖的</td>
+            <td> -20%</td>
+            <td> 行星具有被辐射覆盖的buff</td>
+        </tr>
+        <tr>
+            <td> 彗星观测</td>
+            <td> +15%</td>
+            <td> 彗星观测事件触发</td>
+        </tr>
+        <tr>
+            <td> 近期板块变动事件</td>
+            <td> -5%</td>
+            <td> 发生地震触发</td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">人口</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                移民条约
+            </td>
+            <td> +1%/-1%</td>
+            <td> 人口特质为亲外或者排外时</td>
+        <tr></tr>
+        <td> 合群</td>
+        <td> +5%</td>
+        <td> 拥有合群特质</td>
+        <tr></tr>
+        <td> 孤僻</td>
+        <td> -5%</td>
+        <td> 拥有孤僻特质</td>
+        <tr></tr>
+        <td> 亲外主义</td>
+        <td> +10% or +20% 每个外星人</td>
+        <td> 亲外主义或者极端亲外主义政府的行星上的外星人</td>
+        <tr></tr>
+        <td> 排外主义</td>
+        <td> -10% or -20% 每个外星人</td>
+        <td> 排外主义或者极端排外主义政府的行星上的外星人</td>
+        <tr></tr>
+        <td> 外星领导人</td>
+        <td> -20%</td>
+        <td> 人口拥有排外主义特质且被外星领导人统治</td>
+        <tr></tr>
+        <td> 魅力四射</td>
+        <td> +1%/人口 (max +15%)</td>
+        <td> 影响buff和人口规模有关，不影响本土人口</td>
+        <tr></tr>
+        <td> 令人反感</td>
+        <td> -1%/人口 (max -15%)</td>
+        <td> 影响buff和人口规模有关，不影响本土人口</td>
+        <tr></tr>
+        <td> 相反思潮的邻居</td>
+        <td> -10%</td>
+        <td> 邻居拥有相反的思潮精神</td>
+        <tr></tr>
+        <td> 最近被征服</td>
+        <td> -25%</td>
+        <td> 人口被当前帝国征服，获得10年debuff</td>
+        <tr></tr>
+        <td> 提升种</td>
+        <td> +20%</td>
+        <td> 提升未开化种族，当他们走向太空后所在帝国境内，将会获得加成</td>
+        <tr></tr>
+        <td> 奴役</td>
+        <td> -15%</td>
+        <td> 当人口被奴役时</td>
+        <tr></tr>
+        <td> 反对当前制度</td>
+        <td> -10% or -20%</td>
+        <td> 如果帝国政府与具体人口思潮精神冲突时。例如：亲外主义政体时下的狂排外主义者受到-10％的亲外主义政权惩罚；极端集体主义政体时下的狂热个人主义者受到-20％的集体主义政权惩罚。
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">建筑</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>里甘香料</td>
+            <td> +5%</td>
+            <td> 建筑物所在星球上的所有人口，都会获得相应buff
+        </tr>
+        <tr>
+            <td> 外星（猫娘）动物园</td>
+            <td> +10%</td>
+            <td> 建筑物所在星球上的所有人口，都会获得相应buff
+        </tr>
+        <tr>
+            <td> 皇家公园</td>
+            <td> +10%</td>
+            <td> 建筑物所在星球上的所有人口，都会获得相应buff 只适用于开明的君主制或君主制
+        </tr>
+        <tr>
+            <td> 乐土穹顶</td>
+            <td> +10%</td>
+            <td> 建筑物所在星球上的和平主义者和极端和平主义者人口，都会获得相应buff
+        </tr>
+        <tr>
+            <td> 极乐广场</td>
+            <td> +15%</td>
+            <td> 建筑物所在星球上的唯心主义者和极端唯心主义者人口，都会获得相应buff
+        </tr>
+        <tr>
+            <td> 至纯纪念碑</td>
+            <td> +10%</td>
+            <td> 建筑物所在星球上的排外主义者和极端排外主义者人口，都会获得相应buff
+        </tr>
+        <tr>
+            <td> 虚幻竞技场</td>
+            <td> +5%</td>
+            <td> 建筑物所在星球上的军国主义者和极端军国主义者人口，都会获得相应buff
+        </tr>
+        <tr>
+            <td> 疫病纪念碑</td>
+            <td> +10%</td>
+            <td> 建筑物所在星球上的所有人口，都会获得相应buff ，此建筑只有触发事件后才能启用</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2 class="title">失业人口</h2>
+    <p>
+        人口所在的地块上没有生产资源被认为是处在“失业”状态，此时应该移动到可用生产地块进行生产。 失业人口在地块图像左下角有一个不同的图标。每当出现这个表示，意味着这个星球需要删除占用地块的障碍物或建设新的建筑物。
+        如果被允许的情况下，失业人口有更大意愿进行迁移。
+
+    </p>
+    <h2 class="title">思潮分歧</h2>
+    <p>
+        人口管理是一个重要的中后期游戏机制，增加了帝国政府的内部压力，并为帝国扩张带来了新的挑战。</p>
+    <p> 随着人口增长，帝国最终会分为不同的星区，某些星区可能决定采用与种族初始思潮不同的思潮。</p>
+    <p> 唯物主义人口可能决定走上唯心主义之路，和平主义主义者也可能依然认为和平是弱者的道路。这血就被称为思潮分歧。</p>
+    <p>
+        游戏中显示为红色的正数的思潮分歧，将会使人口偏离忠诚派别。游戏中显示为绿色的负数的思潮分歧，将会使人口倾向于忠诚派别。思潮分歧的是一个人口每年将思潮转向负面或偏离正面帝国思潮的概率的十倍，也就是一个20％思潮分歧的人口每年将有2％的机会将自身思潮偏离帝国政府思潮。</p>
+    <p> 这种伦理分歧有效地创造了一个内部阵营。没有分歧的那些人口被称为忠诚派别，而其他人将通过思潮分歧，在未来某个时间内偏离帝国政府思潮，而不再是忠诚派。</p>
+    <p>
+        已经发生思潮分歧的人口通常较低的幸福度，同忠诚派相比。他们的幸福度可以在某种程度上通过提供不同的需求或通过某些政策或法令来进行管理，例如宣传广播。分歧人口更有可能要求控制其所在星区，甚至要求独立，特别是如果他们在一个星球上成为多数人口的时候。</p>
+    <p> 基本思潮分歧是+ 15％，并且离开首都每个距离单位增加+0.1%
+
+    </p>
+    <h3 class="title">思潮分歧设定
+    </h3>
+    <h3 class="title">帝国buff</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>政教合一制<br>（政府类型）</td>
+            <td> -10%</td>
+            <td> 政府类型为政教合一制
+        </tr>
+        <tr>
+            <td> 超凡帝国制<br>（政府类型）</td>
+            <td> -20%</td>
+            <td> 政府类型为超凡帝国制
+        </tr>
+        <tr>
+            <td> 开放思想开放<br> （法案）</td>
+            <td> +15%</td>
+            <td> 当前帝国政府开启开放思想开放方案
+        </tr>
+        <tr>
+            <td> 信息管制<br> （法案）</td>
+            <td> -10%</td>
+            <td> 当前帝国政府开启信息管制方案</td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">行星buff</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                气态催情素
+            </td>
+            <td> -10%</td>
+            <td> 行星拥有气态催情素的环境</td>
+        <tr></tr>
+        <td> 气态迷幻剂</td>
+        <td> +10%</td>
+        <td> 行星拥有气态迷幻剂的环境</td>
+        <tr></tr>
+        <td> 再教育活动</td>
+        <td> -10%</td>
+        <td> 行星开启再教育活动法案</td>
+        <tr></tr>
+        <td> 社会工程</td>
+        <td> -15%</td>
+        <td> 行星开启社会工程法案</td>
+        <tr></tr>
+        <td> 星区</td>
+        <td> +10%</td>
+        <td> 行星处在星区控制之下</td>
+        <tr></tr>
+        <td> 首都行星</td>
+        <td> -10%</td>
+        <td> 行星是帝国首都
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">人口buff</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                唯心主义者
+            </td>
+            <td> -10% / -30%</td>
+            <td> 唯心主义者与狂热唯心主义者人口</td>
+        <tr></tr>
+        <td> 墨守成规</td>
+        <td> -20%</td>
+        <td> 人口拥有墨守成规特质</td>
+        <tr></tr>
+        <td> 刁民</td>
+        <td> +15%</td>
+        <td> 人口拥有刁民特质</td>
+        <tr></tr>
+        <td> 幸福度</td>
+        <td> -0.4% 当人口幸福度高于50% / +1.0% 当人口幸福度低于50%</td>
+        <td> 人口幸福度度人口思潮的影响
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">建筑buff</h3>
+    <p>
+        建筑的影响效果，通常是面对所在星球的，除非有明确声明
+    </p>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                大陵墓
+            </td>
+            <td> -10%</td>
+            <td> 特殊政府类型的建筑--大陵墓</td>
+        <tr></tr>
+        <td> 虚幻竞技场</td>
+        <td> -5%</td>
+        <td> 特殊人口思潮的特殊建筑--虚幻竞技场服务于军国主义者</td>
+        <tr></tr>
+        <td> 慈善部门</td>
+        <td> -15% </td>
+        <td> 特殊人口思潮的特殊建筑--慈善部门服务于集体主义者</td>
+        <tr></tr>
+        <td> 团结之识</td>
+        <td> -10%</td>
+        <td> 特殊人口思潮的特殊建筑--慈善部门服务于唯心主义者</td>
+        <tr></tr>
+        <td> 飞船庇护所</td>
+        <td> -5%</td>
+        <td> 有一个重新装配的船舶避难所由人口工作.</td>
+        <tr></tr>
+        <td> 行星首府</td>
+        <td> -15%</td>
+        <td> 初始殖民地的行政中心，由殖民船建立</td>
+        <tr></tr>
+        <td> 行星都城</td>
+        <td> -15%</td>
+        <td> 初步发展行星的行政中心，由行星首府发展而来</td>
+        <tr></tr>
+        <td> 复合型帝国首都</td>
+        <td> -15%</td>
+        <td> 一个功能完善的帝国行政中心，由行星都城发展而来，一个国家只有一个
+
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">其他</h3>
+    <table class="table table-bordered table-condensed">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>Value</th>
+            <th>Cause</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                轨道洗脑激光
+            </td>
+            <td> -30%</td>
+            <td> 太空空间站的建设设施</td>
+        <tr></tr>
+        <td> 边疆政委</td>
+        <td> -20%</td>
+        <td> 集体主义者和狂热集体主义者的特殊研究</td>
+        <tr></tr>
+        <td> 傀儡政府</td>
+        <td> -10%</td>
+        <td> 玩家对敌对星球发动解放星球战争目标的战争时，获得傀儡政府人口将会获得这个buff
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <h2 class="title">奴隶制</h2>
+    <p>
+        奴隶制度并不出奇，它能否存在，能否奴役人口，取决于政府思潮，政府政策，政府类型，以及所涉及的各个种族。奴役人口会导致农业和矿产效率的提升，但也意味着努力将会出产极低的研究点数和能量币，因此使用奴隶制时，做好产出的具体规划。</p>
+    <p> 更重要的是，奴隶制的存在将会导致政府内部和外部的激烈冲突。如果帝国公民或邻国帝国反对奴隶制（例如他们是个人主义者或狂热的个人主义者），那么这可能导致严重的派系和外交问题。</p>
+    <p> 任何人口都可以奴役，但最好是奴役不忠诚于当前政府的人口。奴役人口将会是奴隶产生派系，消除了任何关于当前政府的忠诚，进而会导致潜在的反叛起
+    </p>
+    <h2 class="title">机器人</h2>
+    <p>
+        随着科学技术的进步，机器人工人的出现最终成为可能。他们工作效率非常高效，可以保持高幸福度，并能够生活和工作在任何星球表面，而不受限于星球的宜居度。所有机器人成本150能量币和50矿产。他们不消耗食物。与之相反的是相反，他们每月花费1能量币以维持存在。他们拥有机械和机器人的独有特征，这是他们不同于其他种族的地方。他们拥有200％的宜居度适应，所以他们能在任何类型行星上运行，即使是废土世界。</p>
+    <p> 共有有三种机器人技术，普通机器人，智能人和合成人;</p>
+    <p> •普通机器人是最基础的机器人工人。他们在生产矿产方面有额外效率加成，但在生产能量币时会产生极大浪费，研究点数生产几乎为零。</p>
+    <p> •智能人是第二层次机器人工人。他们对第一层次机器人相比都有效率提升。</p>
+    <p>
+        •合成人是第三层机器人工人。他们善于一切工作，包括能量币生产和所有的科学研究。当然在农业生产方面，机器人是一如既往效率感人。普通机器人和机器人不同，合成器是有情感的，有自我思想的，可以被授予权利。这样做使他们在大多数方面相当于正常帝国公民。
+    </p>
+    <table class="table table-bordered table-condened">
+        <tbody>
+        <tr>
+            <td rowspan="2">种类</td>
+            <td rowspan="2"> 科技图标</td>
+            <td class="imgWidth2" rowspan="2"> 能否主动殖民星球</td>
+            <td class="imgWidth2" rowspan="2"> 是否具有幸福度和思潮</td>
+            <td rowspan="2"> 机器人特质</td>
+            <td colspan="3">
+                产出项目
+            </td>
+        </tr>
+        <td>
+            <img class="imgWidth1" src="../../images/manage/population/population9.png" alt="">矿物
+        </td>
+        <td><img class="imgWidth1" src="../../images/manage/population/population10.png" alt="">能量币</td>
+        <td>
+            <img class="imgWidth1" src="../../images/manage/population/population11.png" alt="">
+            <img class="imgWidth1" src="../../images/manage/population/population12.png" alt="">
+            <img class="imgWidth1" src="../../images/manage/population/population13.png" alt=""> <br>
+            研究
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="imgWidth2" src="../../images/manage/population/population2.png" alt=""><br>普通机器人
+            </td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population5.png" alt="">机器人</td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population14.png" alt=""></td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population14.png" alt=""></td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population8.png" alt=""></td>
+            <td class="red"> +10%</td>
+            <td class="green"> -40%</td>
+            <td class="green"> -80%</td>
+        </tr>
+        <tr>
+            <td><img class="imgWidth2" src="../../images/manage/population/population3.png" alt=""><br>智能人</td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population6.png" alt="">智能人</td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population15.png" alt=""></td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population14.png" alt=""></td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population8.png" alt=""></td>
+            <td class="red"> +15%</td>
+            <td class="green"> -20%</td>
+            <td class="green"> -40%</td>
+        </tr>
+        <tr>
+            <td><img class="imgWidth2" src="../../images/manage/population/population4.png" alt=""><br>合成人</td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population7.png" alt="">合成人</td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population15.png" alt=""></td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population15.png" alt=""></td>
+            <td><img class="imgWidth1" src="../../images/manage/population/population8.png" alt=""></td>
+            <td class="red"> +20%</td>
+            <td class="red"> +20%</td>
+            <td class="red"> +20%</td>
+        </tr>
+        </tbody>
+    </table>
+    <h3 class="title">机器人林登万</h3>
+    <p>
+        着人工智能科技的继续发展，机器人将会获得机器人情感和反叛的风险。 这种大规模的机器人叛乱将会感染宇宙中的每一个机器人人口，进而导致有机生命帝国和机器人帝国之间浩大的星系战争。 这是游戏后期的主要危机事件之一。 给予机器人工人平等的权利将会减少了他们的反叛机会，或者是延迟这个超级叛乱，这样做不能保证机器人的长治久安。
+    </p>
+    <h2 class="title">人口行为影响</h2>
+    <h3 class="title">移民
+    </h3>
+    <p>人口自由移民是指人口自愿迁移到更有吸引力的行星，例如居于少数民族地位的外星人可能试图回到到它的故乡。一旦为人口激活移民状态，一个代表处于移民状态的图标出现在行星表面视图中的肖像上，并且在一定时间之后它会移民到目的地。狂热个人主义政府必须允许他们的主要物种自由迁徙，也就是必须开启自由移民政策。
+    </p>
+    <p>
+        与另一个帝国的移民访问贸易协定允许移民到外国领土，在这种情况下，这些种族帝国失去对移动中移民的控制。
+    </p>
+    <h3 class="title">强制迁移
+    </h3>
+    <p>
+        强制迁移是政府强制人口移动到新的行星。为了强制迁移人口，帝国需要激活强制迁移政策。政策执行之后之后，可以通过任何人口打开强制迁移菜单。 在此菜单中，可以选择强制迁移的目标行星和具体操作的人口。强制迁移一个人口花费50影响力。 个人主义政府不执行强制迁移政策。1.3版本之后，强制迁移政策不需要行星管理局（首府建筑），可以对星区行星中的人口进行强制迁移，迁移目标行星并且需要至少40％的宜居度。
+    </p>
+    <h3 class="title">净化
+    </h3>
+    <p>
+        在相应的政策支持下，可以通过使用某种有机污染物清除杀死某些人口。 然而，这使大多数其他帝国以及其他同族人口感到愤怒。 根据人口的社会思潮，这个反应可以减少或删除。 清除外星人会严重激怒他们的母国，除非它被征服。
+    </p>
+</div>

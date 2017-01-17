@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tgp">
+<head>
+    <meta charset="UTF-8">
+    <title>wiki</title>
+    <link rel="stylesheet" href="../../css/wiki.css?v=1.0">
+    <link rel="stylesheet" href="../../css/common.css">
+    <script src="../../js/angular.min.js"></script>
+    <script src="../../js/angular-route.js"></script>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+    <style>
+        iframe {
+            height: 480px;
+        }
+    </style>
+</head>
+<body>
+<article class="wrapper frame tgp-inner">
+    <!-- 左侧导航 [[ -->
+    <aside class="nav" ng-controller="navCtrl">
+        <ul class="ui-tab-v">
+            <li ng-repeat="(key,item) in navs" class="{{nav == key ? 'cur':'' }}" ng-click="curNav(key)"><a
+                    href="#{{key}}">{{item}}</a></li>
+        </ul>
+    </aside>
+    <!-- 左侧导航 ]] -->
+    <!-- 右侧内容 [[ -->
+    <section class="main">
+        <section class="inner" >
+            <ul class="ui-tab">
+                <li ng-repeat="(key,item) in tabs"
+                    class="{{key == tab  ?'cur':''}}"
+                    style="{{key == 'speciality' ? 'min-width:24px;':''}}">
+                    <a href="#{{key}}">{{item}}</a>
+                </li>
+            </ul>
+            <section class="con detail">
+                <section class="con-detail scroll-y">
+                    <ng-view></ng-view>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!-- 右侧内容 ]] -->
+</article>
+<script>
+
+</script>
+<script src="../../js/common.js"></script>
+</body>
+</html>

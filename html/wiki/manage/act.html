@@ -1,0 +1,352 @@
+<div ng-controller="act">
+    <h1 class="title">法案</h1>
+    <p>
+        法案给予帝国立即生效的加成效果，可以对整个帝国颁布，也可以在某个星球上实施。大部分的法案在游戏早期都不可用，需要研究特定科技或完成特殊项目才能解锁。帝国法案可以自行颁布或取消，而星球法案只能持续一段时间。 </p>
+    <p> 目录</p>
+    <dl>
+        <dt>• 1 帝国法案</dt>
+        <dd> o 1.1 事件法案</dd>
+    </dl>
+    <dl>
+        <dt>• 2 星球法案</dt>
+        <dd>o 2.1 基本法案</dd>
+        <dd>o 2.2 极端思潮法案</dd>
+    </dl>
+    <h2 class="title">帝国法案</h2>
+    <p>帝国法案会对整个帝国造成影响，每月需要花费一定影响力来维持。</p>
+    <img src="../../images/manage/act/act1.png" alt="">
+    <table class="table table-bordered table-condened">
+        <thead>
+        <tr>
+            <th>
+                法案
+            </th>
+            <th> 效果</th>
+            <th width="60px;"> 维护费</th>
+            <th> 要求</th>
+            <th width="100px;"> 描述</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>信息管制</td>
+            <td> • -10% <img class="imgWidth1" src="../../images/manage/act/morality.png" alt="">
+                道德观分歧<br>• -5%<img class="imgWidth1" src="../../images/manage/act/scientific.png" alt="">科研速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 与“思想开放”互斥</td>
+            <td> 这条法案规定严格的信息审查制度，能够更好地保留当地的文化传统。</td>
+        </tr>
+        <tr>
+            <td> 思想开放</td>
+            <td> • +15%<img class="imgWidth1" src="../../images/manage/act/morality.png" alt="">道德观分歧
+                <br>• +10%<img class="imgWidth1" src="../../images/manage/act/scientific.png" alt="">科研速度
+            </td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 与“信息管制”互斥</td>
+            <td> 这条法案鼓励人们去挑战那些陈腔滥调，尽管有的时候他们会感到迷失。</td>
+        </tr>
+        <tr>
+            <td> 工程研究津贴</td>
+            <td> • +30%<img class="imgWidth1" src="../../images/manage/act/engineering.png" alt="">工程科学研究速度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/physics.png" alt="">物理科学研究速度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/sociology.png" alt="">社会科学研究速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 不能与其他津贴同时激活</td>
+            <td> 这条法案给工程部门提供额外的资金，减少其他学科的资金。</td>
+        </tr>
+        <tr>
+            <td> 物理研究津贴</td>
+            <td> • +30%<img class="imgWidth1" src="../../images/manage/act/physics.png" alt="">物理科学研究速度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/engineering.png" alt="">工程科学研究速度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/sociology.png" alt="">社会科学研究速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 不能与其他津贴同时激活</td>
+            <td> 这条法案给物理部门提供额外的资金，减少其他学科的资金。</td>
+        </tr>
+        <tr>
+            <td> 社会研究津贴</td>
+            <td> • +30%<img class="imgWidth1" src="../../images/manage/act/sociology.png" alt="">社会科技研究速度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/engineering.png" alt="">工程科技研究速度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/physics.png" alt="">物理科学研究速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 不能与其他津贴同时激活</td>
+            <td> 这条法案给社会部门提供额外的资金，减少其他学科的资金。</td>
+        </tr>
+        <tr>
+            <td> 制作星图</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/abnormal.png" alt="">异常研究速度<br>• +25%<img class="imgWidth1" src="../../images/manage/act/investigation.png" alt="">调查速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act4.png" alt="">全球协同研究</td>
+            <td> 这条法案鼓励探索，去把光明带给黑暗，寻找深空之中隐藏的奇迹。</td>
+        </tr>
+        <tr>
+            <td> 分担负担</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/machine.png" alt="">机器人矿物产出<br>• +10%<img class="imgWidth1" src="../../images/manage/act/slaveFood.png" alt="">奴隶食物产出<br>• +10%<img class="imgWidth1" src="../../images/manage/act/slaveMineral.png" alt="">奴隶矿物产出</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act5.png" alt="">人为道德规范 <br> • 奴隶政策选择“规范化”</td>
+            <td> 这条法案会鼓励契约工使用轮班制，会提升苦力们的生产力。</td>
+        </tr>
+        <tr>
+            <td> 社会保障计划</td>
+            <td> • -20%<img class="imgWidth1" src="../../images/manage/act/energyCurrency.png" alt="">能量币生产<br>• +15%<img class="imgWidth1" src="../../images/manage/act/happiness.png" alt="">幸福度<br>• -20%<img class="imgWidth1" src="../../images/manage/act/mineral.png" alt="">矿物生产</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act6.png" alt="">生存状况</td>
+            <td> 这条法案会引导建立一连串的社会项目，需要大量资金，但是能够提高人民的生活水准。</td>
+        </tr>
+        <tr>
+            <td> 超级舰队</td>
+            <td> • +35%<img class="imgWidth1" src="../../images/manage/act/navy.png" alt="">海军上限<br>• +15%<img class="imgWidth1" src="../../images/manage/act/warship1.png" alt="">舰船维修速度<br>• -15%<img class="imgWidth1" src="../../images/manage/act/warship2.png" alt="">舰船维修花费</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -2</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act7.png" alt="">星际舰队传统</td>
+            <td> 这条法案使超级舰队的荣耀高于一切。政治上会给予舰队大量的关注，以保证它强大的战斗力。</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2 class="title">事件法案</h2>
+    <p>
+        事件法案和帝国法案作用一致，但只能从特定的事件中获得。
+    </p>
+    <table class="table table-bordered table-condened">
+        <thead>
+        <tr>
+            <th>
+                法案
+            </th>
+            <th width="100px;"> 效果</th>
+            <th width="60px;"> 维护费</th>
+            <th> 要求
+
+            </th>
+            <th width="100px">描述</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                水晶奖励
+            </td>
+            <td> • 每次击落一架晶体舰船 +50<img class="imgWidth1" src="../../images/manage/act/mineral.png" alt="">矿物</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 激进地完成晶状生命体事件链，且不为<img class="imgWidth1" src="../../images/manage/act/materialistic1.png" alt="">唯物主义，极端<img class="imgWidth1" src="../../images/manage/act/materialistic2.png" alt="">唯物主义，<img class="imgWidth1" src="../../images/manage/act/militarism1.png" alt="">军国主义，<img class="imgWidth1" src="../../images/manage/act/militarism2.png" alt="">极端军国主义</td>
+            <td> 命令我们的舰队去从被破坏的晶状生命体收集矿石。</td>
+        </tr>
+        <tr>
+            <td> 大量的水晶奖励</td>
+            <td> • 每次击落一架晶体舰船 +100<img class="imgWidth1" src="../../images/manage/act/mineral.png" alt="">矿物</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 激进地完成晶状生命体事件链，且为<img class="imgWidth1" src="../../images/manage/act/materialistic1.png" alt="">唯物主义或<img class="imgWidth1" src="../../images/manage/act/materialistic2.png" alt="">极端唯物主义</td>
+            <td> 命令我们的舰队去从被破坏的晶状生命体收集矿石。</td>
+        </tr>
+        <tr>
+            <td> 水晶声纳</td>
+            <td> • 每次花费30<img class="imgWidth1" src="../../images/manage/act/energyCurrency.png" alt="">能量币使用 <br>• 立即探明星系内是否有晶状生命体</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> 0</td>
+            <td> • 和平地完成晶状生命体事件链</td>
+            <td> 允许我们去给我们的舰队订购运用一项特殊科技的，当遭遇晶状生命体时一下就能确定他们所在的星系的声纳。</td>
+        </tr>
+        <tr>
+            <td> 无人机奖励</td>
+            <td> • 每次击落一架古代无人机 +50<img class="imgWidth1" src="../../images/manage/act/energyCurrency.png" alt="">能量币</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 激进地完成古代无人机事件链</td>
+            <td> 命令我们的舰队去从古代采矿无人机上收集能量块。</td>
+        </tr>
+        <tr>
+            <td> 无人机最佳化</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/mineral.png" alt="">矿物产出</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 和平地完成古代无人机事件链且为<img class="imgWidth1" src="../../images/manage/act/pro1.png" alt="">亲外主义，<img class="imgWidth1" src="../../images/manage/act/pro2.png" alt="">极端亲外主义，<img class="imgWidth1" src="../../images/manage/act/peace1.png" alt="">和平主义，<img class="imgWidth1" src="../../images/manage/act/peace2.png" alt="">极端和平主义</td>
+            <td> 模仿古代采矿无人机技术，这个方案中我们的采矿作业所需的能量将会提高我们的矿石产量。</td>
+        </tr>
+        <tr>
+            <td> 大范围传感探测</td>
+            <td> • +25%<img class="imgWidth1" src="../../images/manage/act/act8.png" alt="">星球探测范围</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 在第一次发现传感列阵时就试图启动它</td>
+            <td> 在对先进传感器研究的项目完毕之后，我们已经拥有足够的信息和资源让我们进一步改良我们自己的搜索扫描。我们的技师能够在星系边缘更加方便的发现异常情况。</td>
+        </tr>
+        <tr>
+            <td> 增加能源开采</td>
+            <td> • +5%<img class="imgWidth1" src="../../images/manage/act/happiness.png" alt="">幸福度<br>• +10%<img class="imgWidth1" src="../../images/manage/act/act9.png" alt="">工业科技研究速度<br>• +10%<img class="imgWidth1" src="../../images/manage/act/act10.png" alt="">材料科技研究速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 在第一次完成驱之不散事件时就试图启动机器人</td>
+            <td> 我们可以进一步限制有毒能源和非可再生能源的使用，进而促进新能源开发。这样能够使我们的能量循环更加臻于完美，并创造一个人人安居乐业的生活环境。</td>
+        </tr>
+        <tr>
+            <td> 提升工作环境</td>
+            <td> • +5%<img class="imgWidth1" src="../../images/manage/act/happiness.png" alt="">幸福度<br>• +10%<img class="imgWidth1" src="../../images/manage/act/act11.png" alt="">生物科技研究速度<br>• +10%<img class="imgWidth1" src="../../images/manage/act/act12.png" alt="">治国科技研究速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 在第一次完成深空的回声事件时就试图安抚科学家</td>
+            <td> 投资对工作环境进行改善，这豪无一人会提高工人的幸福度和工作积极性。</td>
+        </tr>
+        <tr>
+            <td> 大师的教诲：外交信赖</td>
+            <td> • +25%<img class="imgWidth1" src="../../images/manage/act/act13.png" alt="">信任度增长<br>• +10%<img class="imgWidth1" src="../../images/manage/act/act14.png" alt="">毛衣吸引力</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 完成“大师的教诲：外交信赖”事件的研究</td>
+            <td> 出自一位外星人哲学讲义的译本。这部分内容包括对生命和宇宙存在意义的多次思考。如果我们的统治者能够遵循这些建议，我们的执政会更加显得有先见之明。</td>
+        </tr>
+        <tr>
+            <td> 大师的教诲：哲学思维</td>
+            <td> • +1<img class="imgWidth1" src="../../images/manage/act/act15.png" alt="">领袖上限<br>• +10%<img class="imgWidth1" src="../../images/manage/act/sociology.png" alt="">社会科技研究速度</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 完成“大师的教诲：哲学思维”事件的研究</td>
+            <td> 出自一位外星人哲学讲义的译本。这部分内容包括对生命和宇宙存在意义的多次思考。如果我们的统治者能够遵循这些建议，我们的执政会更加显得有先见之明。</td>
+        </tr>
+        <tr>
+            <td> 大师的教诲：上上善道</td>
+            <td> • -10%<img class="imgWidth1" src="../../images/manage/act/act16.png" alt="">建筑花费<br>• -10%<img class="imgWidth1" src="../../images/manage/act/warship1.png" alt="">建造时间</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 完成“大师的教诲：上上善道”事件的研究</td>
+            <td> 出自一位外星人哲学讲义的译本。在研究完他的关于通过自我牺牲来团结大众的理论，我们能够利用这些观点鼓舞群众大规模基建。</td>
+        </tr>
+        <tr>
+            <td> 大师的教诲：战时国度</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/navy.png" alt="">海军上限<br>• -15%<img class="imgWidth1" src="../../images/manage/act/warship2.png" alt="">部队维修花费</td>
+            <td> •<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt=""> -1</td>
+            <td> • 完成“大师的教诲：战时国度”事件的研究</td>
+            <td> 出自一位外星人哲学讲义的译本。她对战争的描述和对战略的独到见解是军方绝佳的教材。
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <img src="../../images/manage/act/act2.png" alt="">
+    <h2 class="title">星球法案</h2>
+    <p>
+        星球法案可以在任一行星上颁布，基础花费为150点<img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt="">
+        影响力。基础 <img class="imgWidth1" src="../../images/manage/act/act3.png" alt="">
+        有效期为10年
+        基本法案
+
+    </p>
+    <table class="table table-bordered table-condened">
+        <thead>
+        <tr>
+            <th>
+                法案
+            </th>
+            <th> 效果</th>
+            <th> 要求</th>
+            <th width="100px"> 描述
+
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                过载发电
+            </td>
+            <td> • +15%<img class="imgWidth1" src="../../images/manage/act/energyCurrency.png" alt="">能量币生产</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act20.png" alt="">新世界协议<br>• 不为<img class="imgWidth1" src="../../images/manage/act/act23.png" alt="">极端个人主义</td>
+            <td> 这项法案允许短时间的使区域电网过载，使得当地发电厂发电量增加。</td>
+        </tr>
+        <tr>
+            <td> 农业补贴</td>
+            <td> • +25%<img class="imgWidth1" src="../../images/manage/act/act18.png" alt="">食物生产</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act21.png" alt="">生态模拟<br>• 不为<img class="imgWidth1" src="../../images/manage/act/act24.png" alt="">极端唯心主义</td>
+            <td> 这项法案提供了正面的积极的经济刺激，提高了粮食的生产。</td>
+        </tr>
+        <tr>
+            <td> 基础设施项目</td>
+            <td> • -25%<img class="imgWidth1" src="../../images/manage/act/act16.png" alt="">建筑花费<br>• -25%<img class="imgWidth1" src="../../images/manage/act/warship1.png" alt="">建造时间</td>
+            <td></td>
+            <td> 这项法案在政治上极大的支持新的建筑计划。</td>
+        </tr>
+        <tr>
+            <td> 机会之地</td>
+            <td> • +100%<img class="imgWidth1" src="../../images/manage/act/act21.png" alt="">移民时间</td>
+            <td></td>
+            <td> 这项法案建立了有针对性的以行星作为前沿的框架的公关活动，一个新的社会前沿，一个任何人可以茁壮成长的地方，一个新的开始。</td>
+        </tr>
+        <tr>
+            <td> 生产指标</td>
+            <td> • +15%<img class="imgWidth1" src="../../images/manage/act/mineral.png" alt="">矿物生产</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act20.png" alt="">殖民地集中化</td>
+            <td> 这项法案是集中行政上的努力来重新调整和评估生产目标，进而推动矿石输出。</td>
+        </tr>
+        <tr>
+            <td> 政治宣传</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/happiness.png" alt="">幸福度<br>• -10%<img class="imgWidth1" src="../../images/manage/act/warship1.png" alt="">建造时间</td>
+            <td> • 解锁科技<img class="imgWidth1" src="../../images/manage/act/act22.png" alt="">行星统一<br>• 不为<img class="imgWidth1" src="../../images/manage/act/act25.png" alt="">极端集体主义</td>
+            <td> 这条法案规定大量信息播报的机制，保障正向、长期的信息传递。</td>
+        </tr>
+        <tr>
+            <td> 再教育活动</td>
+            <td> • -10%<img class="imgWidth1" src="../../images/manage/act/morality.png" alt="">道德观分歧</td>
+            <td> • 不为<img class="imgWidth1" src="../../images/manage/act/act25.png" alt="">极端集体主义</td>
+            <td> 这项法案建立了本地的再教育活动，确认了异议都不过是无知的产物和失败的原因。
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h2 class="title">极端思潮法案</h2>
+    <p>
+        极端思潮法案也是星球法案的一种，它们和星球法案的消耗相同（基础花费150点
+        <img class="imgWidth1" src="../../images/manage/act/maintenance.png" alt="">
+        影响力，基础<img class="imgWidth1" src="../../images/manage/act/act3.png" alt="">有效期为10年）。但极端思潮法案不需要科研就能使用，将会作为升级加强版替代原法案而出现。
+    </p>
+    <table class="table table-bordered table-condened">
+        <thead>
+        <tr>
+            <th>
+                法案
+            </th>
+            <th> 效果</th>
+            <th> 要求</th>
+            <th width="100px"> 描述
+
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                军备竞赛
+            </td>
+            <td> • +33%<img class="imgWidth1" src="../../images/manage/act/act17.png" alt="">陆军建造速度<br>• -15%<img class="imgWidth1" src="../../images/manage/act/act27.png" alt="">太空站模组花费<br>• +33%<img class="imgWidth1" src="../../images/manage/act/energyCurrency.png" alt="">海军建造速度</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/militarism2.png" alt="">极端军国主义</td>
+            <td> 这项狂热的军国主义法案集中全部的行政和社会影响来提高军备的生产效率。</td>
+        </tr>
+        <tr>
+            <td> 和平节日</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/happiness.png" alt="">幸福度</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/peace2.png" alt="">极端和平主义</td>
+            <td> 这项狂热的和平主义法案通过整个季节充满了特殊的事件和节日来培养了一种团结和快乐的精神。</td>
+        </tr>
+        <tr>
+            <td> 基层管理</td>
+            <td> • +20%<img class="imgWidth1" src="../../images/manage/act/energyCurrency.png" alt="">能量币生产</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/act23.png" alt="">极端个人主义</td>
+            <td> 这项狂热的个人主义法案鼓励最接近生产的个人努力去提高责任。</td>
+        </tr>
+        <tr>
+            <td> 社会工程</td>
+            <td> • -15%<img class="imgWidth1" src="../../images/manage/act/act16.png" alt="">道德观分歧</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/act25.png" alt="">极端集体主义</td>
+            <td> 这项狂热的集体主义法案授权使用微妙的社会工具来加强我们在这颗行星上的执政理念。</td>
+        </tr>
+        <tr>
+            <td> 非法入境</td>
+            <td> • -100%<img class="imgWidth1" src="../../images/manage/act/act28.png" alt="">异族入境</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/act26.png" alt="">极端排外主义</td>
+            <td> 这项狂热的排外主义主义法案强有力地阻止了外星人到这个行星上移居。实际上，任何已经在这里居住的外星人最好收拾行李离开这里...</td>
+        </tr>
+        <tr>
+            <td> 合法入境</td>
+            <td> • +100%<img class="imgWidth1" src="../../images/manage/act/act28.png" alt="">异族入境</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/pro2.png" alt="">极端亲外主义</td>
+            <td> 这项狂热的亲外主义法案启动一个大规模的邀请外星人来这个灿烂的多元文化的天堂般的行星上生活的公关活动。</td>
+        </tr>
+        <tr>
+            <td> 科学精神</td>
+            <td> • +20%<img class="imgWidth1" src="../../images/manage/act/engineering.png" alt="">工程科学研究速度<br>• +20%<img class="imgWidth1" src="../../images/manage/act/physics.png" alt="">物理科学研究速度<br>• +20%<img class="imgWidth1" src="../../images/manage/act/sociology.png" alt="">社会科学研究速度</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/materialistic2.png" alt="">极端唯物主义</td>
+            <td> 这项狂热的唯物主义法案集中全部的行政和社会影响来提高科研效率。</td>
+        </tr>
+        <tr>
+            <td> 精神团结</td>
+            <td> • +10%<img class="imgWidth1" src="../../images/manage/act/act18.png" alt="">食物产出<br>• -20%<img class="imgWidth1" src="../../images/manage/act/act29.png" alt="">人口增长时间</td>
+            <td> • 为<img class="imgWidth1" src="../../images/manage/act/act24.png" alt="">极端唯心主义</td>
+            <td> 这项狂热的唯心主义法案利用近乎狂热的宗教联合群众，特别强调收获和生育仪式。
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
