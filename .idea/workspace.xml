@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b6e0ea-d269-49ce-a2b0-f817e8b10859" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/diplomacy/allianceAgreement.html" afterPath="$PROJECT_DIR$/html/wiki/diplomacy/allianceAgreement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/wiki/manage/government.html" afterPath="$PROJECT_DIR$/html/wiki/manage/government.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="government.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="government.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/manage/government.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="430" column="9" lean-forward="true" selection-start-line="430" selection-start-column="9" selection-end-line="430" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="1426" column="79" lean-forward="false" selection-start-line="1426" selection-start-column="79" selection-end-line="1426" selection-end-column="79" />
               <folding>
                 <element signature="n#h2#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#table#0;n#div#0;n#!!top" expanded="false" />
@@ -633,6 +631,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="allianceAgreement.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/wiki/diplomacy/allianceAgreement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="4" column="105" lean-forward="false" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ftl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/wiki/find/ftl.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -640,13 +648,6 @@
               <caret line="253" column="27" lean-forward="true" selection-start-line="253" selection-start-column="27" selection-end-line="253" selection-end-column="27" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ftl1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/find/ftl/ftl1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -735,6 +736,7 @@
         <option value="$PROJECT_DIR$/html/wiki/frame-game.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/html/wiki/manage/government.html" />
+        <option value="$PROJECT_DIR$/html/wiki/diplomacy/allianceAgreement.html" />
       </list>
     </option>
   </component>
@@ -746,8 +748,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="410" />
-    <option name="y" value="290" />
+    <option name="x" value="293" />
+    <option name="y" value="240" />
     <option name="width" value="1366" />
     <option name="height" value="917" />
   </component>
@@ -1093,15 +1095,15 @@
       <workItem from="1484620557174" duration="188000" />
       <workItem from="1484622592220" duration="8310000" />
       <workItem from="1484631913069" duration="441000" />
-      <workItem from="1484632494512" duration="6541000" />
+      <workItem from="1484632494512" duration="7067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25145000" />
+    <option name="totallyTimeSpent" value="25671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="410" y="290" width="1366" height="917" extended-state="0" />
+    <frame x="293" y="240" width="1366" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1134,13 +1136,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/wiki/diplomacy/routine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88140">
-          <caret line="5876" column="95" lean-forward="false" selection-start-line="5876" selection-start-column="95" selection-end-line="5876" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/wiki.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4890">
@@ -7260,8 +7255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/wiki/manage/government.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="430" column="9" lean-forward="true" selection-start-line="430" selection-start-column="9" selection-end-line="430" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="1426" column="79" lean-forward="false" selection-start-line="1426" selection-start-column="79" selection-end-line="1426" selection-end-column="79" />
           <folding>
             <element signature="n#h2#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#!!top" expanded="false" />
@@ -7797,6 +7792,14 @@
             <marker date="1484647314000" expanded="true" signature="640473:640536" ph="..." />
             <marker date="1484647314000" expanded="true" signature="640552:640613" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/wiki/diplomacy/allianceAgreement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="105" lean-forward="false" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="105" />
+          <folding />
         </state>
       </provider>
     </entry>
