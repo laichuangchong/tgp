@@ -229,15 +229,15 @@ tgp.controller("navCtrl",function($scope,$rootScope,$location){
         "progress":"进阶攻略",
         "raidersVideo":"攻略视频"
     };
-    $rootScope.tgp = true;
-    $rootScope.game = true;
+   /* $rootScope.tgp = true;
+    $rootScope.game = true;*/
     $rootScope.nav = 1;
     $rootScope.tab = "lostEmpire";
-    if($location.$$absUrl.indexOf("frame-tgp")== -1){
+  /*  if($location.$$absUrl.indexOf("frame-tgp")== -1){
         $rootScope.tgp = false;
     }else{
         $rootScope.game = false;
-    }
+    }*/
 });
 tgp.factory("tabTada",function(){
     return {
